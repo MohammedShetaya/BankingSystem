@@ -6,7 +6,7 @@ node_modules
 /out
 
 # Environment variables
-#.env.local
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -28,21 +28,3 @@ logs/
 # Miscellaneous
 .DS_Store
 *.log
-
-# vercel
-.vercel
-
-# Django
-__pycache__/
-*.py[cod]
-*.sqlite3
-*.pyc
-*.pyo
-*.egg-info/
-*.egg
-media/
-static/
-.env
-
-# Ignore the virtual environment directory
-.venv/

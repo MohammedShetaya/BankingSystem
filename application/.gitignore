@@ -1,0 +1,50 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Local development settings
+*.env
+*.sqlite3
+
+# Secret keys and credentials
+*.secret_key
+*.pem
+*.key
+*.csr
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+env/
+venv/
+pipenv/
+.venv/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Migration files
+**/migrations/*.py
+**/migrations/*.bak
+**/migrations/*.swp
+
+# Other generated files
+*.swp
+*.lock
+*.DS_Store
+*.zip
+*.tar.gz
+*.rar
+*.tar.bz2
+*.tar
+*.gz
+
+# Test database
+test_db.sqlite3
