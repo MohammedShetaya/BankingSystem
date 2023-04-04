@@ -37,3 +37,8 @@ install the requirments
 ```
 pip install -r requirements.txt
 ```
+
+run the server
+```
+python manage.py runserver
+```
